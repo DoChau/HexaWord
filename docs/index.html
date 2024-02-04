@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>Hex-Spell</title>
+
+		
+
+		<link rel="modulepreload" href="/./_app/start-2fb444ea.js">
+		<link rel="modulepreload" href="/./_app/chunks/vendor-61dc19e2.js">
+		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-3f1f4e04.js">
+		<link rel="modulepreload" href="/./_app/pages/index.svelte-7aa7f104.js">
+		<link rel="modulepreload" href="/./_app/chunks/localstorage-41948a48.js">
+		<link rel="stylesheet" href="/./_app/assets/start-8077b9bf.css">
+		<link rel="stylesheet" href="/./_app/assets/pages/__layout.svelte-f6882847.css">
+		<link rel="stylesheet" href="/./_app/assets/pages/index.svelte-5a4aab08.css">
+
+		<script type="module">
+			import { start } from "/./_app/start-2fb444ea.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":"/."},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/pages/__layout.svelte-3f1f4e04.js"),
+						import("/./_app/pages/index.svelte-7aa7f104.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<header><nav class="flex justify-between border-b border-black bg-neutral"><a href="/" class="hover:bg-selected"><h1 class="p-3 text-2xl text-title uppercase">Hex-Spell</h1></a>
+</nav></header>
+
+<main class="page text-center my-0 mx-auto p-4 svelte-uvgpi">
+
+<div class="flex justify-center"><div class="flex flex-col items-center justify-center"><form class="w-full max-w-sm inline-block align-middle"><div class="md:flex md:items-center mb-6"><div class="md:w-1/2"><label class="md:text-right md:mb-0 block text-black mb-1 pr-4" for="options_time_limit">Time Limit
+          </label></div>
+        <div class="md:w-1/2"><select id="options_time_limit" class="input-select svelte-u3tcgo" value="180"><option value="60">1:00</option><option value="120">2:00</option><option value="180">3:00</option><option value="240">4:00</option><option value="300">5:00</option></select></div></div>
+      <a class="button button-primary" href="/play?time=180">Start Game</a></form>
+
+    <section class="flex flex-col items-center text-center p-4 my-0 mx-auto"></section></div>
+</div>
+</main>
+
+
+
+	
+</div>
+	</body>
+</html>
