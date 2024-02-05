@@ -1,4 +1,4 @@
-import type { HighScores } from "$lib/types"
+import type { HighScores } from '$lib/types'
 
 const TIME_LIMIT_KEY = "options_time_limit"
 export function getDefaultTimeLimit() {

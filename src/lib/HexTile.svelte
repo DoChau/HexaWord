@@ -7,7 +7,7 @@
   export let tile
 </script>
 
-<div class="hex" class:hex--selected={ is_selected }
+<div class="hex" aria-label="Back" on:focus class:hex--selected={ is_selected }
   on:selectstart|preventDefault
   on:mousedown|preventDefault
   on:mouseover|preventDefault

@@ -3,7 +3,7 @@
 
   import {
     getWordScore,
-  } from "$lib/helpers"
+  } from '$lib/helpers'
 
 </script>
 

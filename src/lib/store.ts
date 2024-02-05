@@ -1,4 +1,4 @@
-import { writable } from "svelte/store"
+import { writable } from 'svelte/store'
 
 import {
   AVAILABLE_TILES,
@@ -10,11 +10,11 @@ import {
   getTimeText,
   getWordScore,
   shuffleArray,
-} from "$lib/helpers"
+} from '$lib/helpers'
 import {
   getHighScores,
   setHighScores,
-} from "$lib/localstorage"
+} from '$lib/localstorage'
 
 function createGame() {
   const { subscribe, update } = writable( {

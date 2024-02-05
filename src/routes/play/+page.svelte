@@ -2,10 +2,10 @@
 
   import {
     getDefaultTimeLimit,
-  } from "$lib/localstorage"
+  } from '$lib/localstorage'
 
   export async function load( { page } ) {
-    const response = await fetch( "$lib/wordlist.txt" )
+    const response = await fetch( '$lib/wordlist.txt' )
     const wordlist = await response.text()
     const word_set = new Set( wordlist.split( "\n" ) )
     const dictionary = {
@@ -27,14 +27,14 @@
   export let time_limit
   export let dictionary
 
-  import { onDestroy } from "svelte"
+  import { onDestroy } from 'svelte'
 
-  import { setDefaultTimeLimit } from "$lib/localstorage"
+  import { setDefaultTimeLimit } from '$lib/localstorage'
   import { game } from "$lib/store"
 
-  import GameTimer from "$lib/GameTimer/index.svelte"
-  import ScoreCard from "$lib/ScoreCard/index.svelte"
-  import TileBoard from "$lib/TileBoard/index.svelte"
+  import GameTimer from '$lib/GameTimer/index.svelte'
+  import ScoreCard from '$lib/ScoreCard/index.svelte'
+  import TileBoard from '$lib/TileBoard/index.svelte'
 
   setDefaultTimeLimit( time_limit )
   game.start( { time_limit } )

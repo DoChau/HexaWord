@@ -6,9 +6,9 @@
   export let game
   export let dictionary
 
-  import { flip } from "svelte/animate"
+  import { flip } from 'svelte/animate'
 
-  import HexTile from "$lib/HexTile.svelte"
+  import HexTile from '$lib/HexTile.svelte'
   import {
     BOARD_WIDTH,
     BOARD_HEIGHT,

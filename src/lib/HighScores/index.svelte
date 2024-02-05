@@ -6,10 +6,10 @@
   import {
     getTimeText,
     getWordScore,
-  } from "$lib/helpers"
+  } from '$lib/helpers'
   import {
     getHighScores,
-  } from "$lib/localstorage"
+  } from '$lib/localstorage'
 
   const high_scores = getHighScores()
 </script>

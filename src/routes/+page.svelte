@@ -1,14 +1,12 @@
-<script context="module" lang="ts">
-  export const prerender = true
-</script>
+
 
 <script lang="ts">
   import {
     TIME_LIMIT_OPTIONS,
     getTimeText,
-  } from "$lib/helpers"
+  } from '$lib/helpers'
 
-  import HighScores from "$lib/HighScores/index.svelte"
+  import HighScores from '$lib/HighScores/index.svelte'
 
   let time_limit = TIME_LIMIT_OPTIONS[ 2 ]
 </script>
