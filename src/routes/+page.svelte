@@ -1,14 +1,17 @@
+<script context="module" lang="ts">
+  export const prerender = true
+</script>
 
-  <script lang="ts">
-    import {
-      TIME_LIMIT_OPTIONS,
-      getTimeText,
-    } from "$lib/helpers"
-  
-    import HighScores from "$lib/HighScores/index.svelte"
-  
-    let time_limit = TIME_LIMIT_OPTIONS[ 2 ]
-  </script>
+<script lang="ts">
+  import {
+    TIME_LIMIT_OPTIONS,
+    getTimeText,
+  } from "$lib/helpers"
+
+  import HighScores from "$lib/HighScores/index.svelte"
+
+  let time_limit = TIME_LIMIT_OPTIONS[ 2 ]
+</script>
   
   <svelte:head>
     <title>Hex-Spell</title>
@@ -38,7 +41,7 @@
     </div>
   </div>
   
-  <style lang="scss">
+  <style lang="postcss-scss">
     .input-select {
       @apply
         bg-gray-200

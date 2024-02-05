@@ -1,5 +1,5 @@
-<script context="module" lang="ts">
-  export let timer=0;
+<script lang="ts">
+  export let timer 
 </script>
 
 <section class="text-2xl">

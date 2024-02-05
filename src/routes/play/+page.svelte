@@ -24,7 +24,7 @@
 </script>
 
 <script lang="ts">
-  export let time_limit: number
+  export let time_limit
   export let dictionary
 
   import { onDestroy } from "svelte"
@@ -66,7 +66,7 @@
   {/if}
 </div>
 
-<style lang="scss">
+<style lang="postcss-scss">
   .board-overlay {
     background-color: rgba(0, 0, 0, 0.25);
   }

@@ -9,7 +9,7 @@
   <slot />
 </main>
 
-<style global lang="postcss-scss">
+<style lang="postcss-scss">
   @tailwind base;
   @tailwind components;
   @tailwind utilities;
