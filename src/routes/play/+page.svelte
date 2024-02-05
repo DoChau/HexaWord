@@ -1,6 +1,4 @@
 <script context="module" lang="ts">
-  export const prerender = false
-  export const ssr = false
 
   import {
     getDefaultTimeLimit,
@@ -68,7 +66,7 @@
   {/if}
 </div>
 
-<style>
+<style lang="scss">
   .board-overlay {
     background-color: rgba(0, 0, 0, 0.25);
   }

@@ -55,6 +55,7 @@ declare module '$env/static/private' {
 	export const npm_package_scripts_format: string;
 	export const npm_package_devDependencies__playwright_test: string;
 	export const npm_package_devDependencies__sveltejs_adapter_auto: string;
+	export const npm_package_devDependencies__sveltejs_adapter_static: string;
 	export const npm_package_devDependencies__sveltejs_kit: string;
 	export const npm_package_devDependencies__sveltejs_vite_plugin_svelte: string;
 	export const npm_package_devDependencies__types_eslint: string;
@@ -64,6 +65,8 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies_eslint: string;
 	export const npm_package_devDependencies_eslint_config_prettier: string;
 	export const npm_package_devDependencies_eslint_plugin_svelte: string;
+	export const npm_package_devDependencies_eslint_plugin_svelte3: string;
+	export const npm_package_devDependencies_node_sass: string;
 	export const npm_package_devDependencies_postcss: string;
 	export const npm_package_devDependencies_postcss_load_config: string;
 	export const npm_package_devDependencies_postcss_nesting: string;
@@ -71,14 +74,11 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies_prettier_plugin_svelte: string;
 	export const npm_package_devDependencies_svelte: string;
 	export const npm_package_devDependencies_svelte_check: string;
+	export const npm_package_devDependencies_svelte_preprocess: string;
 	export const npm_package_devDependencies_tailwindcss: string;
 	export const npm_package_devDependencies_tslib: string;
 	export const npm_package_devDependencies_typescript: string;
 	export const npm_package_devDependencies_vite: string;
-	export const npm_package_devDependencies__sveltejs_adapter_static: string;
-	export const npm_package_devDependencies_eslint_plugin_svelte3: string;
-	export const npm_package_devDependencies_node_sass: string;
-	export const npm_package_devDependencies_svelte_preprocess: string;
 	export const npm_package_type: string;
 	export const npm_package_dependencies__fontsource_fira_mono: string;
 	export const npm_package_dependencies__lukeed_uuid: string;
@@ -162,6 +162,7 @@ declare module '$env/dynamic/private' {
 		npm_package_scripts_format: string;
 		npm_package_devDependencies__playwright_test: string;
 		npm_package_devDependencies__sveltejs_adapter_auto: string;
+		npm_package_devDependencies__sveltejs_adapter_static: string;
 		npm_package_devDependencies__sveltejs_kit: string;
 		npm_package_devDependencies__sveltejs_vite_plugin_svelte: string;
 		npm_package_devDependencies__types_eslint: string;
@@ -171,6 +172,8 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies_eslint: string;
 		npm_package_devDependencies_eslint_config_prettier: string;
 		npm_package_devDependencies_eslint_plugin_svelte: string;
+		npm_package_devDependencies_eslint_plugin_svelte3: string;
+		npm_package_devDependencies_node_sass: string;
 		npm_package_devDependencies_postcss: string;
 		npm_package_devDependencies_postcss_load_config: string;
 		npm_package_devDependencies_postcss_nesting: string;
@@ -178,14 +181,11 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies_prettier_plugin_svelte: string;
 		npm_package_devDependencies_svelte: string;
 		npm_package_devDependencies_svelte_check: string;
+		npm_package_devDependencies_svelte_preprocess: string;
 		npm_package_devDependencies_tailwindcss: string;
 		npm_package_devDependencies_tslib: string;
 		npm_package_devDependencies_typescript: string;
 		npm_package_devDependencies_vite: string;
-		npm_package_devDependencies__sveltejs_adapter_static: string;
-		npm_package_devDependencies_eslint_plugin_svelte3: string;
-		npm_package_devDependencies_node_sass: string;
-		npm_package_devDependencies_svelte_preprocess: string;
 		npm_package_type: string;
 		npm_package_dependencies__fontsource_fira_mono: string;
 		npm_package_dependencies__lukeed_uuid: string;

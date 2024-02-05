@@ -88,7 +88,7 @@
   </div>
 </section>
 
-<style type="text/scss">
+<style lang="scss">
   .board {
     border: solid #43363d 2px;
     min-width: 877px;

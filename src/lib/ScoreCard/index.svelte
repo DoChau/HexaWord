@@ -19,7 +19,7 @@
   </ul>
 </section>
 
-<style type="text/scss">
+<style lang="scss">
   .word-list {
     padding-inline-start: 0;
   }

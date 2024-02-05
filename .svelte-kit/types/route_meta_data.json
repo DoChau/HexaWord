@@ -2,5 +2,9 @@
 	"/": [
 		"src/routes/+page.ts"
 	],
-	"/play": []
+	"/about": [],
+	"/login": [],
+	"/play": [
+		"src/routes/play/+page.server.ts"
+	]
 }

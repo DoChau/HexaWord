@@ -1,5 +1,4 @@
 module.exports = {
-  mode: 'jit',
   theme: {
     extend: {
       colors: {
@@ -13,6 +12,5 @@ module.exports = {
   },
   variants: {},
   plugins: [],
-  purge: [ "./src/**/*.svelte" ],
+  content: [ "./src/**/*.svelte" ],
 }
-

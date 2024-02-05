@@ -9,14 +9,14 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
-		"moduleResolution": "bundler",
+		"moduleResolution": "node",
 
-		"importsNotUsedAsValues": "error",
 		"module": "es2020",
 		"baseUrl": ".",
 		"paths": {
 		"$lib/*": [ "src/lib/*" ]
-		}
+		},
+		"noImplicitThis": false
 	},
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
 	//
